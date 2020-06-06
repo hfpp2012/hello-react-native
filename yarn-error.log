@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/Cellar/node/12.12.0/bin/node /usr/local/bin/yarnpkg install
+
+PATH: 
+  /Users/hfpp2012/.rvm/gems/ruby-2.5.1/bin:/Users/hfpp2012/.rvm/gems/ruby-2.5.1@global/bin:/Users/hfpp2012/.rvm/rubies/ruby-2.5.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/hfpp2012/.rvm/bin:/Users/hfpp2012/.fzf/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141191:19)
+      at Object.onceWrapper (events.js:299:28)
+      at ClientRequest.emit (events.js:210:5)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:299:28)
+      at TLSSocket.emit (events.js:210:5)
+      at TLSSocket.Socket._onTimeout (net.js:468:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~37.0.3",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.1.0",
+      "@babel/core": "^7.8.6"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
